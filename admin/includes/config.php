@@ -59,8 +59,8 @@ class AdminDatabase {
 // Admin configuration
 define('ADMIN_USERNAME', 'admin');
 define('ADMIN_PASSWORD', password_hash('admin123', PASSWORD_DEFAULT)); // Ganti password ini!
-define('ADMIN_BASE_URL', '/kabarinovasi/admin');
-define('FRONTEND_BASE_URL', '/kabarinovasi');
+define('ADMIN_BASE_URL', '/admin');
+define('FRONTEND_BASE_URL', '/');
 
 // Initialize database
 $adminDb = new AdminDatabase();
