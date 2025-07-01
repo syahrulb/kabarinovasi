@@ -325,7 +325,7 @@ class Router {
 }
 
 // Configuration - CHANGED FROM /kabar_inovasi TO /kabarinovasi
-$base_url = '/kabarinovasi';
+$base_url = '/';
 
 // Initialize database and models
 try {
