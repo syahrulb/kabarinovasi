@@ -9,18 +9,14 @@ $dotenv = Dotenv::createImmutable(__DIR__);
 $dotenv->load();
 // config/database.php
 class Database {
-    private $host =  '';
-    private $database =  '';
-    private $username =  '';
-    private $password =  '';
+    private $host = '127.0.0.1';
+    private $database = 'kabar_inovasi';
+    private $username = 'kabar_inovasi';
+    private $password = 'HfLNyMPapaB2ZMH6';
     private $charset = 'utf8mb4';
     private $pdo;
 
     public function __construct() {
-        $this->host     = $_ENV['DB_HOST'] ?? '127.0.0.1';
-        $this->database = $_ENV['DB_DATABASE'] ?? 'kabar_inovasi';
-        $this->username = $_ENV['DB_USER'] ?? 'kabar_inovasi';
-        $this->password = $_ENV['DB_PASS'] ?? 'HfLNyMPapaB2ZMH6';
         $this->connect();
     }
 
