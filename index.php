@@ -321,7 +321,7 @@ class Router {
 }
 
 // Configuration - CHANGED FROM /kabar_inovasi TO /kabarinovasi
-$base_url = 'https://kabarinovasi.my.id/';
+$base_url = 'https://kabarinovasi.my.id';
 
 // Initialize database and models
 try {
