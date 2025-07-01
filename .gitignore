@@ -1,0 +1,4 @@
+vendor/*
+# Jangan commit file konfigurasi lokal
+.env
+composer.lock
