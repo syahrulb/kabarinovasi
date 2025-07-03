@@ -57,8 +57,8 @@ class AdminDatabase {
 }
 
 // Admin configuration
-define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD', password_hash('admin123', PASSWORD_DEFAULT)); // Ganti password ini!
+define('ADMIN_USERNAME', 'mediaberitaSuperadmin'); // Ganti username ini!
+define('ADMIN_PASSWORD', password_hash('adminmediaberita123', PASSWORD_DEFAULT)); // Ganti password ini!
 define('ADMIN_BASE_URL', '/admin');
 define('FRONTEND_BASE_URL', 'https://kabarinovasi.my.id');
 
